@@ -28,11 +28,12 @@ Request blocked with status code 403.
 
 This gives the following access log entry on the server:
 ```
-83.76.117.3 - - [2020-01-10 12:30:15.130027] "GET /cms/ HTTP/1.1" 403 199 "-" "crs-trigger (https://github.com/dune73/crs-trigger)" "-" 43970 www.netnea.com 192.168.3.7 443 - - + "ReqID--" XhhgRwp0SwFAd3stciLYngAAABg TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384 563 4046 -% 15889 8149 0 0 10-0-0-0 0-0-0-0 10 0
+83.76.1.1 - - [2020-01-10 12:30:15.130027] "GET /cms/ HTTP/1.1" 403 199 "-" "crs-trigger (https://github.com/dune73/crs-trigger)" "-" 43970 www.netnea.com 192.168.1.1 443 - - + "" XhhgRwp0SwFAd3stciLYngAAABg TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384 563 4046 -% 15889 8149 0 0 10-0-0-0 0-0-0-0 10 0
 ```
 
-
-
+See https://www.netnea.com/cms/apache-tutorial-5_extending-access-log/ for 
+more information about this access log format. The second value from the
+right is the incoming anomaly score.
 
 ## License
 
