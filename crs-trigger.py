@@ -5,7 +5,7 @@
 Copyright (C) 2020, Christian Folini / mailto:christian.folini@netnea.com / @ChrFolini / dune73
 All rights reserved.
 
-See https://github.com/dune73/trigger-crs for more infos about this script.
+See https://github.com/dune73/crs-trigger for more infos about this script.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -49,8 +49,8 @@ except ImportError:
 
 
 __version__ = '0.1.0'
-global name; name = "trigger-crs"
-global user_agent; user_agent = "trigger-crs (https://github.com/dune73/trigger-crs)"
+global name; name = "crs-trigger"
+global user_agent; user_agent = "crs-trigger (https://github.com/dune73/crs-trigger)"
 global fake_host_header; fake_host_header = "0.0.0.0"
 
 
