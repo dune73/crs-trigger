@@ -50,7 +50,7 @@ except ImportError:
 
 __version__ = '0.1.0'
 global name; name = "crs-trigger"
-global user_agent; user_agent = "crs-trigger (https://github.com/dune73/crs-trigger)"
+global user_agent; user_agent = "crs-trigger [see https://github.com/dune73/crs-trigger]"
 global fake_host_header; fake_host_header = "0.0.0.0"
 
 
